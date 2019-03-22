@@ -7,5 +7,5 @@
 5. In resources tab, in add-ons, add a postgres provision
 6. Clone your repository and open, run **_npm install_**
 7. Start coding in your **app.js** file, create directories or other files as you see fit as long as app.js file is the main file
-8. To test, run **_node app.js_**
+8. To test, run **_node app.js_** and make a request to your api using postman/insomnia
 9. To deploy in heroku, push your changes, then go to 'Deploy' tab, find 'Manual Deploy' and deploy the master branch, or 'Automatic Deploy' so the app will redeploy every push on the master branch
