@@ -9,3 +9,4 @@
 7. Start coding in your **app.js** file, create directories or other files as you see fit as long as app.js file is the main file
 8. To test, run **_node app.js_** and make a request to your api using postman/insomnia
 9. To deploy in heroku, push your changes, then go to 'Deploy' tab, find 'Manual Deploy' and deploy the master branch, or 'Automatic Deploy' so the app will redeploy every push on the master branch
+10. If you want to see logs of heroku, you can use the command **_heroku logs -t -a <heroku_app_nam>_**
