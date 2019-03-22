@@ -10,11 +10,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.set('port', process.env.PORT || 6000);
 
-app.listen(app.get('port'), function () {
+app.listen(app.get('port'), () => {
     console.log('Express server listening on %d', app.get('port'));
 });
 
-app.get('/hello', function(req,res){
+app.get('/hello', (req,res) => {
     // console.log(req);
     console.log(req.body);
     res.send(200);
