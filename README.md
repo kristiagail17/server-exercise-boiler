@@ -7,4 +7,4 @@
 5. In resources tab, in add-ons, add a postgres provision
 6. Clone your repository and open, run npm install
 7. Start coding in your app.js file
-8. To deploy in heroku, push your chamges, then go to 'Deploy' tab, find 'Manual Deploy' and deploy the master branch
+8. To deploy in heroku, push your chamges, then go to 'Deploy' tab, find 'Manual Deploy' and deploy the master branch, or 'Automatic Deploy' so the app will redeploy every push on the master branch
